@@ -13,6 +13,15 @@
 		DAAEA83D1BDB15AA009F9B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAEA83B1BDB15AA009F9B37 /* Main.storyboard */; };
 		DAAEA83F1BDB15AA009F9B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAEA83E1BDB15AA009F9B37 /* Assets.xcassets */; };
 		DAAEA8421BDB15AA009F9B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAEA8401BDB15AA009F9B37 /* LaunchScreen.storyboard */; };
+		DAAEA84B1BDB1608009F9B37 /* ZDLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAEA84A1BDB1608009F9B37 /* ZDLineView.m */; };
+		DABC49D51BDB2D730058957B /* ZDMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = DABC49D41BDB2D730058957B /* ZDMapView.m */; };
+		DAD71E641BDCB99F0062346B /* ZDPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD71E631BDCB99F0062346B /* ZDPieView.m */; };
+		DAD71E671BDCC6810062346B /* ZDBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD71E661BDCC6810062346B /* ZDBarChart.m */; };
+		DAD71E691BDCC70B0062346B /* ZDBarChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD71E681BDCC70B0062346B /* ZDBarChart.xib */; };
+		DAD71E6C1BDCCBE00062346B /* ZDProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD71E6B1BDCCBE00062346B /* ZDProgressBar.m */; };
+		DAD71E6E1BDCCC000062346B /* ZDProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD71E6D1BDCCC000062346B /* ZDProgressBar.xib */; };
+		DAD71E711BDCD2310062346B /* ZDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD71E701BDCD2310062346B /* ZDViewController.m */; };
+		DAD71E741BDCD2400062346B /* ZDThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD71E731BDCD2400062346B /* ZDThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,22 @@
 		DAAEA83E1BDB15AA009F9B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAAEA8411BDB15AA009F9B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAAEA8431BDB15AA009F9B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAEA8491BDB1608009F9B37 /* ZDLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLineView.h; sourceTree = "<group>"; };
+		DAAEA84A1BDB1608009F9B37 /* ZDLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLineView.m; sourceTree = "<group>"; };
+		DABC49D31BDB2D730058957B /* ZDMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDMapView.h; sourceTree = "<group>"; };
+		DABC49D41BDB2D730058957B /* ZDMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDMapView.m; sourceTree = "<group>"; };
+		DAD71E621BDCB99F0062346B /* ZDPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPieView.h; sourceTree = "<group>"; };
+		DAD71E631BDCB99F0062346B /* ZDPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPieView.m; sourceTree = "<group>"; };
+		DAD71E651BDCC6810062346B /* ZDBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDBarChart.h; sourceTree = "<group>"; };
+		DAD71E661BDCC6810062346B /* ZDBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDBarChart.m; sourceTree = "<group>"; };
+		DAD71E681BDCC70B0062346B /* ZDBarChart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDBarChart.xib; sourceTree = "<group>"; };
+		DAD71E6A1BDCCBE00062346B /* ZDProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDProgressBar.h; sourceTree = "<group>"; };
+		DAD71E6B1BDCCBE00062346B /* ZDProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDProgressBar.m; sourceTree = "<group>"; };
+		DAD71E6D1BDCCC000062346B /* ZDProgressBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDProgressBar.xib; sourceTree = "<group>"; };
+		DAD71E6F1BDCD2310062346B /* ZDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDViewController.h; sourceTree = "<group>"; };
+		DAD71E701BDCD2310062346B /* ZDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDViewController.m; sourceTree = "<group>"; };
+		DAD71E721BDCD2400062346B /* ZDThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDThreeViewController.h; sourceTree = "<group>"; };
+		DAD71E731BDCD2400062346B /* ZDThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +92,22 @@
 				DAAEA8401BDB15AA009F9B37 /* LaunchScreen.storyboard */,
 				DAAEA8431BDB15AA009F9B37 /* Info.plist */,
 				DAAEA8321BDB15AA009F9B37 /* Supporting Files */,
+				DAAEA8491BDB1608009F9B37 /* ZDLineView.h */,
+				DAAEA84A1BDB1608009F9B37 /* ZDLineView.m */,
+				DABC49D31BDB2D730058957B /* ZDMapView.h */,
+				DABC49D41BDB2D730058957B /* ZDMapView.m */,
+				DAD71E621BDCB99F0062346B /* ZDPieView.h */,
+				DAD71E631BDCB99F0062346B /* ZDPieView.m */,
+				DAD71E651BDCC6810062346B /* ZDBarChart.h */,
+				DAD71E661BDCC6810062346B /* ZDBarChart.m */,
+				DAD71E681BDCC70B0062346B /* ZDBarChart.xib */,
+				DAD71E6A1BDCCBE00062346B /* ZDProgressBar.h */,
+				DAD71E6B1BDCCBE00062346B /* ZDProgressBar.m */,
+				DAD71E6D1BDCCC000062346B /* ZDProgressBar.xib */,
+				DAD71E6F1BDCD2310062346B /* ZDViewController.h */,
+				DAD71E701BDCD2310062346B /* ZDViewController.m */,
+				DAD71E721BDCD2400062346B /* ZDThreeViewController.h */,
+				DAD71E731BDCD2400062346B /* ZDThreeViewController.m */,
 			);
 			path = "UI-Quartz2d";
 			sourceTree = "<group>";
@@ -105,6 +146,7 @@
 		DAAEA8271BDB15AA009F9B37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZD;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "赵志丹";
 				TargetAttributes = {
@@ -137,8 +179,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD71E691BDCC70B0062346B /* ZDBarChart.xib in Resources */,
 				DAAEA8421BDB15AA009F9B37 /* LaunchScreen.storyboard in Resources */,
 				DAAEA83F1BDB15AA009F9B37 /* Assets.xcassets in Resources */,
+				DAD71E6E1BDCCC000062346B /* ZDProgressBar.xib in Resources */,
 				DAAEA83D1BDB15AA009F9B37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +194,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAEA84B1BDB1608009F9B37 /* ZDLineView.m in Sources */,
+				DAD71E641BDCB99F0062346B /* ZDPieView.m in Sources */,
+				DAD71E6C1BDCCBE00062346B /* ZDProgressBar.m in Sources */,
+				DAD71E741BDCD2400062346B /* ZDThreeViewController.m in Sources */,
+				DAD71E711BDCD2310062346B /* ZDViewController.m in Sources */,
 				DAAEA83A1BDB15AA009F9B37 /* ViewController.m in Sources */,
 				DAAEA8371BDB15AA009F9B37 /* AppDelegate.m in Sources */,
+				DABC49D51BDB2D730058957B /* ZDMapView.m in Sources */,
+				DAD71E671BDCC6810062346B /* ZDBarChart.m in Sources */,
 				DAAEA8341BDB15AA009F9B37 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UI-Quartz2d/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "itcast.UI-Quartz2d";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.HMZBadge-Quartz2d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -275,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UI-Quartz2d/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "itcast.UI-Quartz2d";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.HMZBadge-Quartz2d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -299,6 +350,7 @@
 				DAAEA8481BDB15AA009F9B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

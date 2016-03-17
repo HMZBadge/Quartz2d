@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ZDPieView.h"
+#import "ZDBarChart.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    ZDBarChart *barChart = [ZDBarChart  barChart];
+    barChart.center =self.view.center;
+    barChart.backgroundColor = [UIColor grayColor];
+    
+    barChart.barChartValues = @[ @0.5, @0.8, @0.3, @0.7, @0.2, @0.9 ];
+    
+    [self.view addSubview:barChart];
 }
 
 - (void)didReceiveMemoryWarning {
